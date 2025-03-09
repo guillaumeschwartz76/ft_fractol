@@ -68,7 +68,7 @@ void	ft_mandelbrot(t_fractal *fractal, int x, int y)
 	{
 		if ((zr * zr + zi * zi) > 4)
 		{
-			color = ((RED - BLACK) * n) / (fractal->iterations - BLACK) + RED;
+			color = ((VIOLET) * n) / (fractal->iterations - BLACK) + VIOLET;
 			my_minilibx_pixel_put(x, y, &fractal->img, color);
 			return ;
 		}
@@ -77,7 +77,7 @@ void	ft_mandelbrot(t_fractal *fractal, int x, int y)
 		zi = temp;
 		n++;
 	}
-	my_minilibx_pixel_put(x, y, &fractal->img, YELLOW);
+	my_minilibx_pixel_put(x, y, &fractal->img, BLUE);
 }
 
 void	ft_julia(t_fractal *fractal, int x, int y)

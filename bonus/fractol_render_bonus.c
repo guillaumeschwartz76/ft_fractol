@@ -66,7 +66,7 @@ void	ft_mandelbrot(t_fractal *fractal, int x, int y)
 	{
 		if ((zr * zr + zi * zi) > 4)
 		{
-			color = ((RED - BLACK) * n) / (fractal->iterations - BLACK) + RED;
+			color = ((VIOLET) * n) / (fractal->iterations - BLACK) + VIOLET;
 			my_minilibx_pixel_put(x, y, &fractal->img, color);
 			return ;
 		}
@@ -75,7 +75,7 @@ void	ft_mandelbrot(t_fractal *fractal, int x, int y)
 		zi = temp;
 		n++;
 	}
-	my_minilibx_pixel_put(x, y, &fractal->img, RED_INTENSE);
+	my_minilibx_pixel_put(x, y, &fractal->img, BLUE);
 }
 
 void	ft_julia(t_fractal *fractal, int x, int y)
@@ -93,7 +93,7 @@ void	ft_julia(t_fractal *fractal, int x, int y)
 	{
 		if ((zr * zr + zi * zi) > 4)
 		{
-			color = ((RED - BLACK) * n) / (fractal->iterations - BLACK) + RED;
+			color = ((RED - BLACK) * n) / (fractal->iterations - BLACK) + BLUE;
 			my_minilibx_pixel_put(x, y, &fractal->img, color);
 			return ;
 		}
@@ -102,7 +102,7 @@ void	ft_julia(t_fractal *fractal, int x, int y)
 		zi = temp;
 		n++;
 	}
-	my_minilibx_pixel_put(x, y, &fractal->img, RED_INTENSE);
+	my_minilibx_pixel_put(x, y, &fractal->img, VIOLET);
 }
 
 void	ft_burnigship(t_fractal *fractal, int x, int y)
@@ -130,5 +130,5 @@ void	ft_burnigship(t_fractal *fractal, int x, int y)
 		zi = ft_zi(temp, zi);
 		n++;
 	}
-	my_minilibx_pixel_put(x, y, &fractal->img, RED_INTENSE);
+	my_minilibx_pixel_put(x, y, &fractal->img, RED_SOMBRE);
 }

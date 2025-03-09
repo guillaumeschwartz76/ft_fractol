@@ -91,7 +91,7 @@ int	main(int argc, char **argv)
 	else
 	{
 		write(2,
-			"entre : fractol mandelbrot ou fractol julia <x> <y> ou burnigship",
+			"entre : fractol mandelbrot ou fractol julia <x> <y> ou burnigship\n",
 			66);
 		exit (EXIT_FAILURE);
 	}

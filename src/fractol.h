@@ -24,13 +24,18 @@
 # define WIDTH   800
 # define HEIGHT  800
 
-# define BLACK       0x00000
-# define WHITE       0xFFFFFF
-# define RED   0xFF0000
-
+# define BLACK       	0x00000
+# define WHITE       	0xFFFFFF
+# define RED   		 	0xFF0000
 # define GREEN_LIGHT	0x00CC00
-# define BLUE_CIEL       0x66FFFF
-# define YELLOW		0xFFFF00
+# define BLUE_CIEL      0x66FFFF
+# define YELLOW			0xFFFF00
+# define ORANGE			0xFF5733
+# define GREEN			0x079E52
+# define GREEN2			0x3F6810
+# define CIAN			0x19E5DC
+# define BLUE			0x02142F
+# define VIOLET			0x4E0893
 
 typedef struct s_complex
 {

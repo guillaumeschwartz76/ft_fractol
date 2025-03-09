@@ -84,7 +84,7 @@ int	main(int argc, char **argv)
 	}
 	else
 	{
-		ft_putstr_fd("tapez : fractol mandelbrot ou fractol julia <x> <y>", 1);
+		ft_putstr_fd("tapez : fractol mandelbrot ou fractol julia <x> <y>\n", 1);
 		exit (EXIT_FAILURE);
 	}
 	return (0);
