@@ -2,7 +2,7 @@
 
 This project involves creating fractals
 
-# Introduction
+## Introduction
 
 Created by Benoît Mandelbrot in 1974 from the Latin root fractus, which means “broken”, or “irregular”.
 A fractal figure is a mathematical object, such as a curve or a surface, whose structure is invariant
@@ -38,18 +38,18 @@ You can choose three different fractal: mandelbrot, julia <x> <y> or burnigship.
 ./fractol burnigship
 ```
 
-# Moving controls
+## Moving controls
 
 * ```w``` move foward
 * ```s``` move backward
 * ```a``` move left
 * ```d``` move right
 
-# Zoom mouse
+## Zoom mouse
 
 * ```Button5``` zoom more
 * ```Button4``` zoom less
 
-# Color shift
+## Color shift
 
 * ```ctrl right```
